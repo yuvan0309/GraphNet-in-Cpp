@@ -60,7 +60,6 @@ Graph Graph::createSyntheticGraph(int num_classes) {
     int feature_dim = num_classes + 1;  
     
     auto node_features = torch::randn({num_nodes, feature_dim});
-    
     torch::Tensor node_labels = torch::zeros({num_nodes}, torch::kInt64);
     
     node_labels[1] = 1 % num_classes;

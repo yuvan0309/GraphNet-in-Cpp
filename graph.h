@@ -14,15 +14,10 @@ public:
     Graph(torch::Tensor node_features, std::vector<std::pair<int, int>> edge_list);
 
     torch::Tensor getNodeFeatures() const;
-    
     torch::Tensor getNodeLabels() const;
-    
     torch::Tensor getEdgeIndex() const;
-    
     size_t getNumNodes() const;
-    
     size_t getNumEdges() const;
-
     static Graph createSyntheticGraph(int num_classes);
 
 private:
