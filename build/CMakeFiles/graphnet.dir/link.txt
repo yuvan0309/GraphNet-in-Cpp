@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/graphnet.dir/main.cpp.o CMakeFiles/graphnet.dir/graph.cpp.o CMakeFiles/graphnet.dir/graphnet.cpp.o -o bin/graphnet  -Wl,-rpath,/home/yuvan/libtorch/lib /home/yuvan/libtorch/lib/libtorch.so /home/yuvan/libtorch/lib/libc10.so /home/yuvan/libtorch/lib/libc10.so -Wl,--no-as-needed,/home/yuvan/libtorch/lib/libtorch.so -Wl,--as-needed 

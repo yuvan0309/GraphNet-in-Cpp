@@ -1,0 +1,3 @@
+/home/yuvan/Documents/GraphNet in C++/build/CMakeFiles/graphnet.dir
+/home/yuvan/Documents/GraphNet in C++/build/CMakeFiles/edit_cache.dir
+/home/yuvan/Documents/GraphNet in C++/build/CMakeFiles/rebuild_cache.dir
